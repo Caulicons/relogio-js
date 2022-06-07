@@ -1,0 +1,75 @@
+body {
+     background: rgb(17, 13, 6);
+     font-family: 'Tiro Gurmukhi', serif;
+     height: 95vh;
+}
+
+header {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration-line:underline black;
+    
+}
+
+section {
+    background: whitesmoke;
+    border-radius: 12px;
+    padding: 25px 60px;
+    width: 50vh;
+    margin: auto;
+    box-shadow: 6px 10px ;
+    text-align: center;
+}
+
+div {
+    margin: 40px 0;
+    font-family: 'roboto', sans-serif;
+    ;
+}
+
+footer {
+    text-align:center;
+    color: whitesmoke;
+    text-decoration-line: overline;
+    margin-top: 30px;
+}
+
+img {
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+}
+
+.texto {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.cumprimento {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 560px) {
+    section{
+        display: grid;
+        width: 60%;
+        padding:0 ;
+        min-width: 280px; 
+    }
+
+    section div{
+        font-weight: bold;
+        justify-items: center;
+    }
+
+    input {
+        margin-right: 0px;
+    }
+
+    div {
+        margin: 16px 0;
+    }
+
+    
+}   
